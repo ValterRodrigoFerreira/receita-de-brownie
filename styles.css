@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", sem serifa;
+  background-color: #f0f0f0;
+}
+
+.box {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 798px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.title {
+  color: #ff6a28;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sub-title {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #61656d;
+  font-style: normal;
+  font-weight:normal
+  line-height: 19px;
+}
+
+.image {
+  margin-top: 8px;
+}
+
+container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-boxtime,
+.info-boxporcao,
+.info-boxfavorito,
+.info-boxcomentario,
+.info-box-anaflavia {
+  margin: 10px;
+  width: 118px;
+  height: 85px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.info-text {
+  display: block;
+  padding-top: 10px;
+}
+.info-strong-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ff6a28;
+}
+
+.info-box-anaflavia {
+  width: 238px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-boximg-ana {
+  display: block;
+}
+
+.info-strong-text-name {
+  color: #ff6a28;
+  display: block;
+}
