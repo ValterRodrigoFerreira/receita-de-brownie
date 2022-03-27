@@ -1,0 +1,163 @@
+body {
+  background-color: #f0f0f0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  font-family: "Roboto", sem serifa;
+}
+
+.box {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 798px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.title {
+  color: #ff6a28;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sub-title {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #61656d;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.image {
+  margin-top: 8px;
+  border-radius: 3px;
+}
+
+.icon {
+  width: 20px;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-boxtime,
+.info-boxporcao,
+.info-boxfavorito,
+.info-boxcomentario,
+.info-box-anaflavia {
+  margin: 10px;
+  width: 118px;
+  height: 85px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.info-text {
+  display: block;
+  margin-top: 8px;
+  padding-bottom: 3px;
+  color: #61656d;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.info-strong-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ff6a28;
+  margin-top: 6px;
+  padding-top: 5px;
+}
+
+.info-box-anaflavia {
+  width: 238px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #61656d;
+}
+
+.info-boximg-ana {
+  display: block;
+}
+
+.info-strong-text-name {
+  color: #ff6a28;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.icon-title {
+  color: #ff6a28;
+  display: inline;
+  text-align: center;
+}
+
+.ingredients-box {
+  margin-top: 37px;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.icon-title {
+  margin-left: 8px;
+}
+
+.list {
+  list-style-position: inside;
+  margin-top: 12px;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  color: #61656d;
+  font-size: 14px;
+}
+
+.preparation-box {
+  margin-top: 16px;
+}
+
+.preparation-item {
+  margin-bottom: 20px;
+  list-style-position: inside;
+}
+
+.add-info-box {
+  margin-top: 16px;
+}
+
+.info-add-title {
+  background-color: #f0f0f0;
+  padding: 8px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #61656d;
+  text-align: center;
+}
+
+.add-info-text {
+  margin-top: 16px;
+  color: #61656d;
+  font-size: 14px;
+  line-height: 18px;
+}
